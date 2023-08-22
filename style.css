@@ -1,0 +1,67 @@
+.container{
+  margin-bottom: 100px;
+}
+.bg{
+  border-radius: 12px;
+  background-color: #fceae8;
+}
+.carousel-item{
+  padding: 30px 40px;
+}
+.price{
+  color: #FF136F;
+}
+.shop{
+  background-image: linear-gradient(to bottom,#FF589B 0%, #FF136F 100%);
+  color: #fff;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 9px 25px;
+  border: none;
+}
+.cat1, .cat2, .cat3{
+  padding: 10px 30px;
+  border-radius: 10px;
+
+}
+.cat1{
+  background-image: linear-gradient(to left, rgb(162, 255, 0) 0%, rgb(255, 200, 0) 100%);
+}
+.cat2{
+  background-image: linear-gradient(to left, rgb(255, 153, 0) 0%, rgb(0, 204, 255) 100%);
+}
+.cat3{
+  background-image: linear-gradient(to left, rgb(255, 0, 153) 0%, rgb(255, 200, 0) 100%);
+}
+.bag{
+  margin-left: 20px;
+}
+.card{
+  border: none;
+  box-shadow: 5px 5px 25px lightgray;
+}
+.card-footer{
+  border-top: none;
+  background-color: white;
+  border-top: none;
+}
+.price-bg{
+  margin-left: 10px;
+}
+#sub{
+  height: 400px;
+  background-color: #fceae8;
+  
+}
+#sub button{
+  margin-top: 10px;
+}
+footer{
+  background-color: #FF589B;
+  text-align: center;
+}
+@media only screen and (max-width:600px) {
+  .col-md-4{
+    margin-bottom: 10px;
+  }
+}
